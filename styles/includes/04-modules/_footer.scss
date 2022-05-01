@@ -1,0 +1,113 @@
+footer.userFooter {
+  .upper {
+    position: relative;
+    .container {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      .overlapLayer {
+        top: -70px;
+      }
+    }
+  }
+  background-color: transparent;
+  .bottom {
+    padding: 16px 0;
+    background-color: #fff;
+
+    color: #555;
+    a {
+      color: #555;
+    }
+  }
+  .midFooter {
+    padding: 120px 0;
+    padding-bottom: 60px;
+    background-color: rgba($p, 0.05);
+    .links {
+      h5 {
+        font-size: 14px;
+        color: $p;
+        font-weight: bolder;
+      }
+    }
+    .branding {
+      .tagline {
+        font-size: 14px;
+        font-weight: bold !important;
+        color: #999 !important;
+        margin-top: 10px;
+      }
+      img {
+        max-width: 140px;
+      }
+    }
+    .list-unstyled {
+      li {
+        a {
+          font-size: 14px;
+          display: block;
+          padding: 5px 0px;
+          text-decoration: none;
+          transition: all 0.3s ease-in-out;
+          &:hover {
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+  .overlapLayer {
+    margin-bottom: -70px;
+    box-shadow: 0px 10px 30px rgba(#000, 0.05);
+    padding: 30px;
+    border-radius: 10px;
+    position: relative;
+    z-index: 99;
+    background-color: rgba(#fff, 1);
+    .tollFree {
+      .info {
+        .title {
+          color: $p;
+        }
+      }
+      .icon {
+        i {
+          font-size: 60px;
+          color: $p !important;
+        }
+      }
+    }
+    .socialicons {
+      display: flex;
+      align-items: center;
+      text-align: center;
+      gap: 10px;
+      margin-top: 10px;
+      .icon {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        a {
+          text-align: center;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          i {
+            font-size: 25px;
+            height: 40px;
+            border-radius: 4px;
+            width: 40px;
+            background-color: rgba($p, 0.1);
+            line-height: 40px;
+            color: $p;
+            &:hover {
+              background-color: rgba($p, 0.2);
+              color: $p;
+            }
+          }
+        }
+      }
+    }
+  }
+}
